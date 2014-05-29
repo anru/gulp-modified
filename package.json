@@ -1,0 +1,43 @@
+{
+  "name": "gulp-modified",
+  "description": "Passthrough only changed files",
+  "version": "0.9.0",
+  "homepage": "http://github.com/anru/gulp-modified",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anru/gulp-modified.git"
+  },
+  "author": {
+    "name": "anru",
+    "email": "version.ru@gmail.com",
+    "url": "http://twitter.com/anru"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "through2": "~0.4.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "gulp": "~3.6.2",
+    "stream-reduce": "~1.0.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/anru/gulp-modified/issues"
+  }
+}
